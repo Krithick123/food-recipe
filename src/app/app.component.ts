@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'food-recipe';
+  defaultFeature='recipes';
+  onAddFeature(feature: string){
+    this.defaultFeature=feature;
+  }
 }
